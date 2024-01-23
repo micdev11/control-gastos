@@ -22,11 +22,14 @@ const ListadoGastos = ({
                                 setGastoEditar={setGastoEditar}
                                 eliminarGasto={eliminarGasto}
                             />
+
+                        
                         ))}
                     </>
                 ) : (
                     <>
                         <h2>{gastos.length ? 'Gastos' : 'No Hay Gastos aún'}</h2>
+                        <h4>{gastos.length ? 'Arrastre hacia la izquierda para eliminar y hacia la derecha para editar' : ''}</h4>
                         {gastos.map( gasto => (
                             <Gasto 
                                 key={gasto.id}

@@ -1,6 +1,6 @@
 :root {
 
-    --azul:#3CA55C;  /* fallback for old browsers */
+    --azul:#3CA55C;  
     --blanco: #ffffff;
     --gris-claro: #f5f5f5;
     --gris: #94a3b8;
@@ -264,6 +264,9 @@ main {
     color: var(--gris-oscuro);
     font-weight: 900;
 }
+.listado-gastos h4 {
+    color: var(--gris-oscuro);
+}
 .no-gastos {
     text-align: center;
     font-size: 2.2rem;
@@ -334,6 +337,7 @@ main {
 }
 .nuevo-gasto img:hover {
     cursor: pointer;
+    scale: 1.1;
 }
 
 .modal {
