@@ -29,7 +29,7 @@ const ListadoGastos = ({
                 ) : (
                     <>
                         <h2>{gastos.length ? 'Gastos' : 'No Hay Gastos aún'}</h2>
-                        <h4>{gastos.length ? 'Arrastre hacia la izquierda para eliminar y hacia la derecha para editar' : ''}</h4>
+                        <h4>{gastos.length ? 'Arrastra hacia la derecha 👉 para editar y hacia la izquierda 👈 para eliminar' : ''}</h4>
                         {gastos.map( gasto => (
                             <Gasto 
                                 key={gasto.id}
