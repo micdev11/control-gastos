@@ -69,19 +69,19 @@ const Modal = ({
                 {mensaje && <Mensaje tipo="error">{mensaje}</Mensaje>}
 
                 <div className="campo">
-                    <label htmlFor="nombre">Nombre Gasto</label>
+                    <label htmlFor="nombre">Nombre del Gasto</label>
 
                     <input 
                         id="nombre"
                         type="text"
-                        placeholder="Añade el Nombre del Gasto"
+                        placeholder="Añade el nombre"
                         value={nombre}
                         onChange={ e => setNombre(e.target.value)}
                     />
                 </div>
 
                 <div className="campo">
-                    <label htmlFor="cantidad">Cantidad Gasto</label>
+                    <label htmlFor="cantidad">Cantidad del Gasto</label>
 
                     <input 
                         id="cantidad"
