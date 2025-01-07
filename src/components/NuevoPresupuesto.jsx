@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Mensaje from './Mensaje'
 
 const NuevoPresupuesto = ({
-    presupuesto, 
+    presupuesto,
     setPresupuesto, 
     setIsValidPresupuesto
 }) => {
@@ -31,8 +31,8 @@ const NuevoPresupuesto = ({
                     <input 
                         className="nuevo-presupuesto"
                         type="number"
-                        placeholder="Añade tu Presupuesto"
-                        value= {presupuesto} 
+                        placeholder="Añade tu presupuesto aquí"
+                        value= {presupuesto === 0 ? '' : presupuesto}
                         onChange={ e => setPresupuesto(Number(e.target.value))}
                     />
                 </div>

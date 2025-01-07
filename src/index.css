@@ -1,7 +1,7 @@
 :root {
 
-    --azul:#3CA55C;  
-    --blanco: #e6e6e6;
+    --azul:#2a7741;  
+    --blanco: #e6e6e6e3;
     --gris-claro: #f5f5f5ea;
     --gris: #94a3b8;
     --gris-oscuro: #64748b;
@@ -88,6 +88,7 @@ header h1 {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .formulario input[type="text"],
@@ -187,7 +188,7 @@ header h1 {
 }
 .formulario input[type="text"].nuevo-presupuesto, 
 .formulario input[type="number"].nuevo-presupuesto {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
